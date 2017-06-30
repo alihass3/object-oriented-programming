@@ -17,6 +17,8 @@ def withdraw(amount)
   @balance-=amount
 end
 
+yoyoyo
+
 def gain_interest
   @balance+=(@interest_rate/100)*(@balance)
   end
